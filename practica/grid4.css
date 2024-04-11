@@ -1,0 +1,47 @@
+.grid {
+    display: grid;
+    grid-template-columns: minmax(50px, 100px) 
+    3fr 1fr 1fr 2fr 1fr;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.grid > span {
+    padding: 8px 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bottonasis{
+    height: 30px; 
+    width: 200px;
+    background-color: blue;
+    fill: white;
+    border-radius: 15px;
+}
+
+.gridasist{
+    display: grid;
+    grid-template-columns: minmax(50px, 100px) 3fr 1fr 1fr 2fr 1fr;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#asistoggle{
+    display: grid;
+    grid-template-columns: minmax(50px, 100px) 3fr 1fr 1fr 2fr 1fr;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.show {
+    display: flex;
+}
+.checkbox {
+    height: 30px;
+    width: 30px;
+    fill: aqua;
+    background-color: blue;
+    border-width: 1px;
+    border-color: darkblue;
+    border-radius: 10px;
+}
